@@ -2,7 +2,7 @@ name: otel_flutter_riverpod
 description: Flutter overlay for `otel_riverpod`. Re-exports the
   OTel provider observer and adds an `OTelProviderScope` widget that
   installs it on the root container with one line.
-version: 0.1.0-beta.1
+version: 0.1.0-beta.2-wip
 repository: https://github.com/dartastic/otel_flutter_riverpod
 homepage: https://dartastic.io
 
