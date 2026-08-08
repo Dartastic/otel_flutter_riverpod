@@ -1,12 +1,13 @@
 # otel_flutter_riverpod
 
-Flutter overlay for [`otel_riverpod`](../otel_riverpod/README.md).
+Flutter overlay for
+[`otel_riverpod`](https://pub.dev/packages/otel_riverpod).
 
 Two things:
 
 1. **Re-exports** the core `OTelRiverpodObserver` + `RiverpodSemantics`
-   so a Flutter app only needs one dependency on the Dartastic-Pro
-   Riverpod integration.
+   so a Flutter app only needs one dependency for Riverpod
+   instrumentation.
 2. **`OTelProviderScope`** — a `ProviderScope` that auto-installs the
    OTel observer:
 
@@ -72,7 +73,7 @@ OTelProviderScope(
 )
 ```
 
-See [`otel_riverpod`](../otel_riverpod/README.md)
+See [`otel_riverpod`](https://pub.dev/packages/otel_riverpod)
 for the full attribute reference and the span shape the observer
 produces.
 
